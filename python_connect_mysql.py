@@ -1,8 +1,9 @@
-!pip install sqlalchemy
-!pip install pymysql
+#!pip install sqlalchemy
+#!pip install pymysql
 import sqlalchemy 
 import pymysql
 
+# Connection details
 user = "admin"
 password = "tuIzaqrAKLMe32G0"
 host = "instagram-data-db.csik1hfjt1qb.us-east-1.rds.amazonaws.com"
