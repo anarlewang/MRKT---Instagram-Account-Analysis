@@ -20,4 +20,3 @@ text_data = pd.read_sql('select * from ins_text_data',con=connection_engine)
 ## Read in account info table
 instagram_data = pd.read_sql('select * from ins_account_data',con=connection_engine)
 
-data = pd.read_sql('select * from ins_account_data',con=connection_engine)
