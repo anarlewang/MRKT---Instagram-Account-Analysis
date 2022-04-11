@@ -4,11 +4,11 @@ import sqlalchemy
 import pymysql
 
 # Connection details
-user = "admin"
-password = "tuIzaqrAKLMe32G0"
-host = "instagram-data-db.csik1hfjt1qb.us-east-1.rds.amazonaws.com"
+user = "***"
+password = "***"
+host = "*****"
 port = 3306
-db = "instagram_data"
+db = "***"
 connection_engine = sqlalchemy.create_engine('mysql+pymysql://' + user + ':' + password + '@' + host + ':' + str(port) + '/' + db , echo=True)
 # You can use user, password, port and db info to connect via MySQL Workbench
 
